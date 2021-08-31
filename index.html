@@ -6,38 +6,157 @@
   <title>Eduardo Bonatto - Site Pessoal</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <header>
-    <h1 class="header-title">
-      <a href="index.html">Eduardo Richetti Bonatto</a>
-    </h1>
-    <ul class="header-menu">
-      <li><a href="index.html">Início</a></li>
-      <li><a href="sobre/index.html">Sobre</a></li>
-      <li><a href="profissional/index.html">Profissional</a></li>
-    </ul>
-  </header>
-
-  <main class="card">
-    <section class="data-section">
-      <h2 class="card-title">Sobre mim:</h2>
-      <ul class="info-list">
-        <li><b>De:</b> Cascavel - PR</li>
-        <li><b>Nasceu em:</b> 10/12/2003</li>
-        <li>Técnico em Desenvolvimento de Sistemas</li>
-        <li>Estudante de Tecnologia em Sistemas para Internet (UTFPR-TD)</li>
-        <li>Auxiliar de TI (CTMGEO - Soluções em Geotecnologias)</li>
+  <main class="inicio">
+    <img src="assets/img/foto-pessoal.jpg" alt="Foto pessoal">
+    <div class="inicio-main">
+      <div class="main-title">
+        <h1 class="inicio-title">Eduardo Bonatto</h1>
+        <h2 class="inicio-subtitle">Desenvolvedor Front-End</h2>
+      </div>
+      <ul class="inicio-buttons">
+        <a href="#">
+          <li>INÍCIO</li>
+        </a>
+        <a href="#pessoal">
+          <li>PESSOAL</li>
+        </a>
+        <a href="#profissional">
+          <li>PROFISSIONAL</li>
+        </a>
       </ul>
-      <p class="ver-mais-link"><a href="sobre/index.html">Ver Mais</a></p>
-    </section>
-    <div class="image-section">
-      <img src="assets/foto-pessoal.jpg" alt="Foto de Eduardo Bonatto">
     </div>
   </main>
+
+  <section class="data-section" id="pessoal">
+    <div class="section-head">
+      <h3>Pessoal</h3>
+      <span class="head-line"></span>
+    </div>
+    <div class="card-section">
+      <div class="card">
+        <div class="card-icon">
+          <img src="assets/icons/information.png" alt="Ícone Sobre mim">
+        </div>
+        <strong class="card-title">Sobre Mim</strong>
+        <div class="card-content">
+          <ul>
+            <li>Nasci em 10/12/2003</li>
+            <li>Desde sempre em Cascavel PR</li>
+            <li>Técnico em Desenvolvimento de Sistemas pelo SENAI-PR</li>
+            <li>Cursando Sistemas para Internet na UTFPR-TD</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-icon">
+          <img src="assets/icons/cpu.png" alt="Ícone Tecnologias">
+        </div>
+        <strong class="card-title">Tecnologias</strong>
+        <div class="card-content">
+          <ul>
+            <li><a href="https://dart.dev">Dart</a></li>
+            <li><a href="https://flutter.dev">Flutter</a></li>
+            <li><a href="https://pt-br.reactjs.org">ReactJS</a></li>
+            <li><a href="https://nextjs.org">NextJS</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-icon">
+          <img src="assets/icons/study.png" alt="Ícone Hobbies">
+        </div>
+        <strong class="card-title">Hobbies</strong>
+        <div class="card-content">
+          <ul>
+            <li>Video-Games</li>
+            <li>Leitura</li>
+            <li>Ciclismo</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="data-section" id="profissional">
+    <div class="section-head">
+      <h3>Profissional</h3>
+      <span class="head-line"></span>
+    </div>
+    <div class="card-section">
+      <div class="card">
+        <div class="card-icon">
+          <img src="assets/icons/web-design.png" alt="Ícone Front-End">
+        </div>
+        <strong class="card-title">Desenvolvimento Front-End</strong>
+        <div class="card-content">
+          <p>
+            Tenho experiência em criação de aplicativos móveis com a linguagem
+            de programação Dart e o framework Flutter.
+          </p>
+          <p>
+            Também tenho desenvolvido sites com a popular biblioteca ReactJS,
+            juntamente com a tecnologia NextJS.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-icon">
+          <img src="assets/icons/office-building.png" alt="Ícone Empresa">
+        </div>
+        <strong class="card-title">Empresa</strong>
+        <div class="card-content">
+          <p>
+            Atualmente atuando como auxiliar de TI na empresa
+            <a href="https://www.ctmgeo.com.br">CTMGEO - Soluções
+              em Geotecnologias.</a>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-icon">
+          <img src="assets/icons/booking.png" alt="Ícone Hobbies">
+        </div>
+        <strong class="card-title">GeoCidadão</strong>
+        <div class="card-content">
+          <p>
+            Desenvolvi para a empresa o aplicativo móvel
+            <a href="https://www.ctmgeo.com.br/empresa/software/geocidadao">
+              GeoCidadão</a>. Ele está sendo utilizado em algumas ciades para
+            conectar as prefeituras e osseus cidadãos!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-texts">
+      <div class="footer-author">
+        <p>Desenvolvido por Eduardo Richetti Bonatto</p>
+        <p><a href="mailto:edubonatto10@gmail.com"></a>edubonatto10@gmail.com</p>
+      </div>
+      <div class="footer-credits">
+        Icons made by <a href="https://www.freepik.com" title="Freepik">
+          Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">
+          www.flaticon.com</a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="https://www.facebook.com/edu.bonatto10/" class="icon-button facebook">
+        <i class="icon-facebook"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/eduardo-bonatto/" class="icon-button linkedin">
+        <i class="icon-linkedin"></i>
+      </a>
+    </div>
+  </footer>
 </body>
 
 </html>
